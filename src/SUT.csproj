@@ -3,17 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Title>SUT</Title>
-    <Description>SUT (System Under Test) is a wrapper class for testing systems. It also provides an MSpec ClassFixture that assists with using MSpec and xUnit together for easier running of tests in VSCode.</Description>
+    <Description>SUT is a wrapper class for testing systems. Includes an MSpec ClassFixture.</Description>
     <PackageId>SUT</PackageId>
     <Copyright>© 2022</Copyright>
-    <PackageTags>"AutoMock", "Auto Mocked System Under Test", "Unit-Testing", "System Under Test", "MSpec", "MSpec test runner via xUnit", "FluentAssertions", "Moq", </PackageTags>
+    <PackageTags>"System Under Test", "Unit-Testing", "AutoMock", "Auto Mocked System Under Test", "MSpec", "MSpec test runner via xUnit", "FluentAssertions", "Moq" </PackageTags>
     <Version>0.0.1</Version>
     <Authors>Kyle Finley</Authors>
     <PackageProjectUrl>https://github.com/kfinley/SUT</PackageProjectUrl>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/kfinley/SUTs</RepositoryUrl>
+    <RepositoryUrl>https://github.com/kfinley/SUT</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
