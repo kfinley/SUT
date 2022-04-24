@@ -26,4 +26,6 @@ jobs:
       uses: tedd/publish-nuget-neo@v1
       with:
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
-        PROJECT_FILE_PATH: src/SUT.csproj
+        PACKAGE_NAME: SUT
+        PROJECT_FILE_PATH: src/Sut.csproj
+        DEBUG: true
